@@ -1,0 +1,4 @@
+.logo {
+    height: auto; /* Ensures the logo scales proportionally */
+    max-height: 70px; /* Adjust as needed to fit the navbar height */
+  }
