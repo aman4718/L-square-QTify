@@ -32,7 +32,7 @@ const NewAlbums = () => {
       <div className="new-header">
         <h3>New Albums</h3>
         <h3 className="new-toggletext" onClick={handleToggle}>
-          {toggle ? "Show All" : "Collapse"}
+          {toggle ? "Collapse" : "Show All"}
         </h3>
       </div>
       <div className="newalbums-wrapper">
