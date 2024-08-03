@@ -6,7 +6,9 @@ import Button from "../Button/Button";
 const NavBar = () => {
   return (
     <nav className="navbar">
-      <Logo />
+      <div className="logo-container">
+        <Logo />
+      </div>
       <Search />
       <Button text="Give Feedback" />
     </nav>
